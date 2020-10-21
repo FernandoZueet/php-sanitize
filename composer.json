@@ -1,0 +1,29 @@
+{
+    "name": "fernandozueet/php-sanitize",
+    "type": "library",
+    "description": "Sanitize php values",
+    "keywords": ["sanitize", "sanitize array", "sanitize string", "php sanitize", "php sanitize array"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Fernando Zueet",
+        "email": "fernandozueet@hotmail.com",
+        "homepage": "https://github.com/FernandoZueet"
+    }],
+    "require": {
+        "php": ">=7.2",
+        "laravel/helpers": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "FzPhpSanitize\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
