@@ -130,7 +130,7 @@ Output:
 
 ## Mode of use Laravel
 
-Laravel 8 or superior
+Laravel 5.8 or superior
 
 ```php
 <?php
@@ -274,7 +274,7 @@ Output:
 
 Strip HTML and PHP tags from a string.
 
-`striptags(array|string $allowable_tags = "")`
+`striptags(string $allowable_tags = "")`
 
 ```php
 use FzPhpSanitize\Sanitize;

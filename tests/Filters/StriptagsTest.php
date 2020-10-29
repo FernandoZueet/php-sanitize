@@ -20,9 +20,9 @@ class StriptagsTest extends TestCase
     public function values() : array
     {
         return [
-            ["<a href='#'>Link</a> <h1>Hello world!</h1>", "<a>", "<a href='#'>Link</a> Hello world!"],
+            ["<h1><b>Hello</b> world!</h1>", "<b>", "<b>Hello</b> world!"],
             ["<a href='#'>Link</a> <h1>Hello world!</h1>", "", "Link Hello world!"],
-            ["<a href='#'>Link</a> <h1><b>Hello</b> world!</h1>", ['<a>','<b>'], "<a href='#'>Link</a> <b>Hello</b> world!"],
+            ["<p>Link</p><b>Hello</b>world<h1>!</h1>", "<p><b>", "<p>Link</p><b>Hello</b>world!"],
             [10, "", ""],
         ];
     }

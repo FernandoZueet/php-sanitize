@@ -130,7 +130,7 @@ class Sanitize
      * 
      * @link http://php.net/manual/en/function.strip-tags.php
      *
-     * @param array|string $allowable_tags
+     * @param string $allowable_tags
      * @return Striptags
      */
     public static function striptags($allowable_tags = ""): Striptags
